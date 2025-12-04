@@ -75,6 +75,24 @@
             margin: 0 auto;
             line-height: 1.6;
         }
+
+        @media (max-width: 768px) {
+            .visual-wrap {
+                padding: 40px 0 30px; /* 상단 공간 생겨서 깔끔 */
+            }
+            .visual-inner {
+                width: 100%; /* PC 폭 강제 적용 방지 */
+                padding: 0 18px; /* 좌우 여백 + 자연스러움 */
+            }
+            .visual-text p {
+                font-size: 17px; /* 모바일 폰트 크게 */
+                line-height: 1.9;
+            }
+            footer {
+                font-size: 13px; /* 모바일 푸터 글씨 조정 */
+                padding: 24px 18px;
+            }
+        }
     </style>
 </head>
 <body>
@@ -127,6 +145,7 @@
 </div>
 </body>
 </html>
+
 
 
 
